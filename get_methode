@@ -1,0 +1,10 @@
+<html>
+<body>
+<form method="get" action="http://localhost/server.php">
+Horizontal_x_achse: <input id="x_achse_67" type="submit" name="x_achse" value="67"><br>
+    <input id="x_achse_87" type="submit" name="x_achse" value="87"><br>
+<!--Vertikal_y_achse: <input type="text" name="y_achse"></input><br><br>-->
+<input type="submit" value="45"></input><br>
+</form>
+</body>
+</html>
