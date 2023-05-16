@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<title> angles</title>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+background:#b5e7a0
+			}
+	#name-div{
+		width:100%;
+		min-height:200px;
+	margin-bottom:50;
+	background:#b5e7a0;
+	line-height:200px;
+	text-align:center;
+	font-size:100px;
+}
+	#main-div
+	{
+		width:100%;
+		text-align:center;
+		
+	}
+	#xasis-div
+	{
+		width:25%;
+		min-height:400px;
+		background:#b5e7a0;
+		float:left;
+		border:2px solid black;
+	}
+	#middle-div
+	{
+		width:50%;
+		float:left;
+		min-height:400px;
+		background-color:#b5e7a0;
+		margin-left:0%;
+		margin-right:0%
+		
+	}
+	#yaxis-div
+	{
+		width:25%;
+		min-height:400px;
+		background-color:#b5e7a0;
+		float:left;
+		border:2px solid black;
+	}
+		
+	
+	.h1{
+		margin-top:20px;
+		margin-bottom: 60px;
+	}
+	.button{
+		min-width:70px;
+		min-height:70px;
+		margin-bottom:5px;
+		background: #82b74b;
+		align:center;
+		border-radius:15px;
+		border:2px solid black;
+		font-size:25px;
+	}
+	select {
+		width: 200px;
+		height: 40px;
+		line-height: 3;
+		background: #86af49;
+		overflow: hidden;
+		border-radius: 15px;
+	}
+	
+</style>
+	</head>
+	<body>
+		<div id="name-div">Das Projekt
+</div>
+
+<div id="main-div" class="clearfix">
+	<div id="xasis-div" class="container">
+		<h1 class="h1"> Winkel wählen </h1>
+		<form method="get" action="http://localhost/server.php">
+
+	<input type="submit" name="x_achse" value="90" class="button">
+	</input>
+	
+	<input  type= "submit" name="x_achse" value="45" class="button"> </input>
+	
+	<input name="x_achse" type= "submit" value="30" class="button"></input>
+<div>
+  <input name="x_achse" type= "submit" value="0" class="button"> </input>
+	<input name="x_achse" type="submit" value="-45" class="button"> </input>
+	<input name="x_achse" type= "submit" value="-90" class="button"></input>
+</div>
+		</form>
+	</div>
+	<div id="middle-div">
+		<h1 class="h1"> Rotation</h1>
+		<div class="select">
+			<select name="angle" id="angle">
+				<option selected disabled>Rotation</option>
+				<option value="">nach links drehen </option>
+				<option value="">nach rechts drehen</option>
+			</select>
+		
+		</div>
+	</div>
+	<div id="yaxis-div" class="container">
+		<h1 class="h1"> Winkel wählen</h1>
+		<form method="get" action="http://localhost/server.php">
+
+	<input name="y_achse" type="submit" value="90" class="button"></input>
+	
+	<input name="y_achse" type= "submit" value="45"class="button"> </input>
+	
+	<input name="y_achse" type= "submit" value="30" class="button"> </input>
+<div>
+  <input name="y_achse" type="submit" value="0" class="button"></input>
+	<input name="y_achse" type= "submit" value="-45" class="button"></input>
+	<input name="y_achse" type= "submit" value="-90" class="button"></input>
+</div>
+	</form>
+	</div>
+</div>
+	</body>
+
+</html>
