@@ -1,0 +1,19 @@
+<?php
+
+$mysqli = new mysqli("localhost", "root", "1234", "webseite_input");//webseite_input ist der mysql Dateiname, 1234( mehr in der README-Datei)
+if ($mysqli->connect_error){
+         echo "Fehler bei Verbindung.";
+         exit();
+}
+else {
+         echo "Verbindung erfolgreich!";
+}
+
+//$sql = "INSERT INTO  buttons_forms ( horizontal_x_achse, vertikal_y_achse) VALUES ( 90, 45);";
+//$sql = "INSERT INTO buttons_forms (ID, horizontal_x_achse, vertical_y_achse) VALUES (NULL, 'Vorname', 'Nachname', '9');";
+$sql = "INSERT INTO  buttons_forms ( horizontal_x_achse, vertikal_y_achse) VALUES ( '".$_GET["x_achse"]."', '".$_GET["y_achse"]."');";
+$result = $mysqli->query($sql);
+
+$mysqli->close();
+
+?>
