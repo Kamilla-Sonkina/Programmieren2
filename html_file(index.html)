@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<title> angles</title>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+background:#b5e7a0
+			}
+	#name-div{
+		width:100%;
+		min-height:200px;
+	margin-bottom:50;
+	background:#b5e7a0;
+	line-height:200px;
+	text-align:center;
+	font-size:100px;
+}
+	#main-div
+	{
+		width:100%;
+		text-align:center;
+		
+	}
+	#xasis-div
+	{
+		width:25%;
+		min-height:400px;
+		background:#b5e7a0;
+		float:left;
+		border:2px solid black;
+	}
+	#middle-div
+	{
+		width:50%;
+		float:left;
+		min-height:400px;
+		background-color:#b5e7a0;
+		margin-left:0%;
+		margin-right:0%
+		
+	}
+	#yaxis-div
+	{
+		width:25%;
+		min-height:400px;
+		background-color:#b5e7a0;
+		float:left;
+		border:2px solid black;
+	}
+		
+	
+	.h1{
+		margin-top:20px;
+		margin-bottom: 60px;
+	}
+	.button{
+		min-width:70px;
+		min-height:70px;
+		margin-bottom:5px;
+		background: #82b74b;
+		align:center;
+		border-radius:15px;
+		border:2px solid black;
+		font-size:25px;
+	}
+	select {
+		width: 200px;
+		height: 40px;
+		line-height: 3;
+		background: #86af49;
+		overflow: hidden;
+		border-radius: 15px;
+	}
+	
+</style>
+
+	</head>
+	<body>
+		<div id="name-div">Das Projekt
+    </div>
+
+<div id="main-div" class="clearfix">
+
+	   <div id="xasis-div" class="container">
+		    <h1 class="h1"> Winkel wählen </h1>
+
+	          <button name="Xaxis90" type="submit" value="value" class="button"> 90
+	           </button>
+	
+	           <button name="Xaxis45" type= "submit" value="value"class="button"> 45
+             </button>
+	
+            <button name="xasis30" type= "submit" value="value" class="button"> 30
+            </button>
+       <div>
+            <button name="Xasis0" type= "submit" value="value" class="button"> 0
+            </button>
+            
+	          <button name="Xasis45minus" type="submit" value="value" class="button"> -45
+            </button>
+	          
+            <button name="Xasis90minus" type= "submit" value="value" class="button">-90
+            </button>
+        </div>
+  </div>
+
+	<div id="middle-div">
+		<h1 class="h1"> Rotation</h1>
+    
+    
+		<div class="select">
+			<select name="angle" id="angle">
+				<option selected disabled>Rotation</option>
+				<option value="">nach links drehen </option>
+				<option value="">nach rechts drehen</option>
+			</select>
+		 </div> 
+</div>
+
+	<div id="yaxis-div" class="container">
+		<h1 class="h1"> Winkel wählen</h1>
+
+	     <button name="Yaxis90" type="submit" value="value"class="button"> 90
+	     </button>
+	
+	     <button name="Yaxis45" type= "submit" value="value"class="button"> 45
+       </button>
+	
+	     <button name="Yasis30" type= "submit" value="value"class="button"> 30
+       </button>
+       
+    <div>
+       <button name="Xasis0" type="submit" value="value" class="button"> 0
+       </button>
+       
+	     <button name="Yasis45minus" type= "submit" value="value" class="button">-45
+       </button>
+       
+	     <button name="Yasis90minus" type= "submit" value="value" class="button">-90
+       </button>
+    </div>
+	</div>
+  
+  </div>
+	</body>
+
+</html>
