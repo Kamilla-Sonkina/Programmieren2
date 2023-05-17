@@ -1,4 +1,6 @@
 # Programmieren2
+❗bitte überprüfe immer die Namen
+
 Tipp: Öffnen die Datei in PyCharm, es werden sofort alle Funktionen und Methoden farblich markiert. (File-Open-Datei wählen)
 
 
