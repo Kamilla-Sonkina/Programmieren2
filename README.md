@@ -39,4 +39,4 @@ dann -> passwort ändern
 
 
 
-❗❗❗wenn du Fragen hast, lass es mich wissen
+❗❗❗wenn du Fragen hast, lass es mich wissen. Code ist noch nicht optimiert, deswegen ist es schwierig alles zu verstehen.
