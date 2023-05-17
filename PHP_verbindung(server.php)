@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli("localhost", "root", "1234", "webseite_input");//webseite_input ist der mysql Dateiname, 1234( mehr in der README-Datei)
+$mysqli = new mysqli("localhost", "root", "1234", "webseite_input");//webseite_input ist der mysql Dateiname(Screenshot in Readme), 1234( mehr in der README-Datei)
 if ($mysqli->connect_error){
          echo "Fehler bei Verbindung.";
          exit();
