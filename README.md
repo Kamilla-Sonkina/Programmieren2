@@ -1,7 +1,9 @@
 # Programmieren2
 Tipp: Öffnen die Datei in PyCharm, es werden sofort alle Funktionen und Methoden farblich markiert. (File-Open-Datei wählen)
 
-Wichtige Dateien : html_file (Index.html), php_verbindung (server.php), HTML+ CSS+ PHP (index.html)
+
+
+❗Wichtige Dateien : html_file (Index.html), php_verbindung (server.php), HTML+ CSS+ PHP (index.html)
 
 der einzige Unterschied zwischen HTML+ CSS+ PHP (index.html) und html_file (index.html)  ist: 
 im HTML+ CSS+ PHP (index.html) Buttons sind anklickbar(mit php verbindung), während in html_file(index.html) nur Design ist.
